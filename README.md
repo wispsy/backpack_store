@@ -16,10 +16,11 @@ Records recover their Python types after closing and reopening the database.
 
 The public `Backpack` class, `BackpackError`, `backpack` discovery entry point
 and `backpack.records.*` capability names keep their existing spellings for
-compatibility. Historical release/tag identities and the `wispsy/backpack`
-repository URL are unchanged. A repository-slug rename needs a separate decision
-covering redirects, local remotes, documentation links, CI checkout references
-and downstream integration pins; it is not part of the product-name alignment.
+compatibility. The repository is now [wispsy/backpack_store](https://github.com/wispsy/backpack_store).
+GitHub redirects the previous repository URL; existing release tags, package
+files and source history keep their identities. The distribution and import
+names remain the same. [Wispsy Releases](https://github.com/orgs/wispsy/projects/31)
+tracks published artifacts separately from current main development.
 
 ## Installation
 
